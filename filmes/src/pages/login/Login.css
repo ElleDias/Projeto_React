@@ -1,0 +1,75 @@
+/*Mae de todos*/
+.main_login {
+    display: flex;
+    height: 100vh;
+}
+
+/*Banner da esquerda*/
+.banner {
+    background-image: url("../../assets/img/fundoLogin.png");
+    flex: 1;
+    /*Modifica*/
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Form de login direita*/
+.section_login{
+    flex: 1;
+    color: white;
+
+    background-color: #cc3f55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+}
+
+.form_login {
+    width: 70%;
+    height: 50%;
+    /*centraliza o campo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.form_login h1 {
+    text-transform: uppercase;
+}
+
+.campo_login {
+    width: 100%;
+}
+
+.campo_input {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.campo_input input {
+    height: 30px;
+    margin-top: 7%;
+    padding: 0px 10px;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 1px 4px 4px 0px #00000045;
+}
+
+/*RESPONSIVIDADE*/
+/*ME DE ALGUMAS CARACTERISTICAS A PARTIR DE UM TAMANHO DE TELA*/
+
+@media screen and (max-width: 768px){
+/*0px -> 768px*/
+.banner{
+    display: none;
+}
+}
