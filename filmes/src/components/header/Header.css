@@ -5,6 +5,7 @@ header{
 
     /*Borda: */
     box-shadow: 1px 4px 4px 0px #00000055;
+    position: relative;
 }
 
 .cabecalho{
@@ -34,4 +35,3 @@ header{
         margin-left: 10px;
     }
 }
-
